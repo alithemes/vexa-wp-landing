@@ -1076,6 +1076,7 @@ label {
   padding: 40px 25px 30px;
   margin-bottom: 25px;
   transition: 0.3s linear;
+  min-height: 250px;
 }
 .plugin-item:hover {
   transform: translateY(-5px);
@@ -1094,14 +1095,15 @@ label {
 ===============================*/
 .portfolio-area {
   padding: 140px 0 140px;
+  border-bottom: 1px solid #d6d6d6;
 }
 .portfolio-img {
   position: relative;
 }
 .portfolio-img img:nth-child(2) {
   position: absolute;
-  left: -30px;
-  top: 120px;
+  left: -115px;
+  top: -97px;
 }
 .portfolio-img img:nth-child(3) {
   position: absolute;
@@ -1134,7 +1136,7 @@ label {
 	04. blog
 ===============================*/
 .blog-area {
-  padding: 0 0 140px;
+  padding: 140px 0 0 ;
 }
 .blog-content {
   margin-right: 110px;
@@ -1148,9 +1150,9 @@ label {
 }
 .blog-img img:nth-child(2) {
   position: absolute;
-  box-shadow: 0px 24px 40px 0px rgba(10, 12, 0, 0.2);
-  left: 0;
-  bottom: 60px;
+  left: -112px;
+  bottom: -62px;
+  width: 302px;
 }
 /*=============================
 	04. review
@@ -1244,9 +1246,9 @@ label {
 .footer-content .title {
   color: var(--tg-white);
   margin-bottom: 20px;
-  font-size: 80px;
+  font-size: 75px;
   letter-spacing: -1.8px;
-  line-height: 75px; /* 125% */
+  line-height: 1.25; /* 125% */
   font-weight: 400;
 }
 .footer-content p {
@@ -1423,7 +1425,7 @@ label {
   font-family: var(--icon-font);
   color: var(--tg-paragraph-color);
   font-weight: 900;
-  font-size: 16px;
+  font-size: 32px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -1519,4 +1521,15 @@ label {
 }
 .feature-1 {
   max-width: 60%;
+}
+.accordion-area a {
+  color: #1601ac;
+  text-decoration: underline;
+}
+.accordion-header {
+	margin-bottom: 0;
+	padding-right: 40px;
+}
+.text-primary {
+  color: var(--tg-primary-color) !important;
 }
