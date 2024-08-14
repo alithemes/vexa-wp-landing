@@ -468,7 +468,7 @@ label {
   top: 0;
   width: 100%;
   z-index: 99;
-  background-image: url(../img/images/img-vexa/bg/bg.png);
+  background: #0a0c00;
   -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-box-shadow: 0 10px 15px rgb(108 108 108 / 10%);
@@ -733,7 +733,7 @@ label {
 	04. Banner
 ===============================*/
 .banner-area {
-  background-image: url(../img/images/img-vexa/bg/bg.png);
+  background: #0a0c00;
   padding: 438px 0 0;
   z-index: 1;
   position: relative;
@@ -1039,10 +1039,7 @@ label {
 ===============================*/
 .inner-demo-area {
   padding: 140px 0 250px;
-  background-image: url(../img/images/img-vexa/bg/bg-1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: #0a0c00;
   overflow: hidden;
   border-radius: 20px;
   border: 1px solid rgba(10, 12, 0, 0.08);
@@ -1232,10 +1229,7 @@ label {
 	04. footer
 ===============================*/
 .footer-area {
-  background-image: url(../img/images/img-vexa/bg/bg.png);
-  background-position: center;
-  bacjkground-repeat: no-repeat;
-  background-size: cover;
+  background: #0a0c00;
   position: relative;
   z-index: 1;
 }
